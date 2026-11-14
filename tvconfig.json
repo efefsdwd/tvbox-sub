@@ -1,0 +1,60 @@
+{
+  "name": "TV端整合订阅·5采集源+553频道",
+  "note": "由 TVBox Desktop 内置订阅翻译为 TVBox/FongMi 标准格式；5 个苹果CMS 采集接口与直播源均已实测存活（2026-11-14）。采集站随时可能失效，失效后在 App 内删掉即可。",
+  "sites": [
+    {
+      "key": "ffzy",
+      "name": "非凡资源",
+      "type": 3,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "lzi",
+      "name": "量子资源",
+      "type": 3,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dyttzy",
+      "name": "电影天堂资源",
+      "type": 3,
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "guangsu",
+      "name": "光速资源",
+      "type": 3,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "subo",
+      "name": "素博资源",
+      "type": 3,
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [
+    {
+      "name": "公开直播源·IPv4（553频道）",
+      "type": 0,
+      "url": "https://live.zbds.top/tv/iptv4.txt",
+      "playerType": 1
+    }
+  ],
+  "parses": []
+}
