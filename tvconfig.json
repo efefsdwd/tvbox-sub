@@ -1,6 +1,6 @@
 {
-  "name": "TV端整合订阅·5采集源+553频道",
-  "note": "由 TVBox Desktop 内置订阅翻译为 TVBox/FongMi 标准格式；5 个苹果CMS 采集接口与直播源均已实测存活（2026-11-14）。采集站随时可能失效，失效后在 App 内删掉即可。",
+  "name": "TV端整合订阅·5采集源+精选直播",
+  "note": "影视源由 TVBox Desktop 内置订阅翻译为 TVBox/FongMi 标准格式；直播源为 2026-11-14 实测筛选后的清单（已剔除探测不通的地址）。采集站随时可能失效，失效后在 App 内删掉即可。",
   "sites": [
     {
       "key": "ffzy",
@@ -50,9 +50,15 @@
   ],
   "lives": [
     {
-      "name": "公开直播源·IPv4（553频道）",
+      "name": "精选直播·主流频道（实测可播）",
       "type": 0,
-      "url": "https://live.zbds.top/tv/iptv4.txt",
+      "url": "https://cdn.jsdelivr.net/gh/efefsdwd/tvbox-sub@main/live_main.txt",
+      "playerType": 1
+    },
+    {
+      "name": "精选直播·地方频道（实测可播）",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/efefsdwd/tvbox-sub@main/live_local.txt",
       "playerType": 1
     }
   ],
